@@ -1,0 +1,19 @@
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.bg-section-dark {
+    background-color: $bg-section-dark;
+}
+
+.bg-section-light {
+    background-color: $bg-section-light;
+}
+
+.section-title {
+    @include font(36px, 700, 42.19px, 0.03em);
+    text-align: center;
+    color: $primary-font-color;
+    margin-bottom: 50px;
+}
