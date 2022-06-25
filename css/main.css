@@ -53,7 +53,7 @@ a {
   overflow: hidden;
 }
 
-.form-subscribe, .footer-social-link, .link, .skills__item-label, .advantages__icon, .checkbox-policy-label, .modal-close-btn, .social-list__link, .subscribe-btn {
+.form-subscribe, .footer-social-link, .link, .skills__item-label, .advantages__icon, .checkbox-policy-label, .modal-close-btn, .social__link, .subscribe-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -262,7 +262,7 @@ a {
   margin-right: 10px;
 }
 
-.social-list__link {
+.social__link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -270,7 +270,7 @@ a {
   color: #AFB1B8;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-list__link:hover, .social-list__link:focus {
+.social__link:hover, .social__link:focus {
   background-color: #2196F3;
 }
 
@@ -280,7 +280,7 @@ a {
   fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-list__link:hover .social__icon, .social-list__link:focus .social__icon {
+.social__link:hover .social__icon, .social__link:focus .social__icon {
   fill: #ffffff;
 }
 
