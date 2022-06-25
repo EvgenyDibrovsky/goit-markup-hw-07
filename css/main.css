@@ -210,7 +210,7 @@ a {
 .subscribe-btn:hover, .subscribe-btn:focus {
   background-color: #188CE8;
 }
-.subscribe-btn .subscribe-btn-icon {
+.subscribe-btn .subscribe-btn__icon {
   fill: #ffffff;
   width: 24px;
   height: 24px;
@@ -822,7 +822,7 @@ a {
   color: #ffffff;
 }
 
-.footer-contacts-list__footer-contacts-item:not(:last-child) {
+.footer-contacts__item:not(:last-child) {
   margin-bottom: 8px;
 }
 
@@ -847,15 +847,15 @@ a {
   margin-bottom: 20px;
 }
 
-.footer-social-list {
+.footer-social {
   display: flex;
 }
 
-.footer-social-list__footer-social-item {
+.footer-social__item {
   width: 44px;
   height: 44px;
 }
-.footer-social-list__footer-social-item:not(:last-child) {
+.footer-social__item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -871,13 +871,13 @@ a {
   background-color: #2196F3;
 }
 
-.footer-social-list__footer-social-icon {
+.footer-social__icon {
   fill: currentColor;
   width: 20px;
   height: 20px;
 }
 
-.form-subscribe__form-subscribe-input {
+.form-subscribe__input {
   width: 358px;
   padding: 15px 16px;
   margin-right: 12px;
@@ -887,7 +887,7 @@ a {
   border-radius: 4px;
   color: #ffffff;
 }
-.form-subscribe__form-subscribe-input::placeholder {
+.form-subscribe__input::placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.25;

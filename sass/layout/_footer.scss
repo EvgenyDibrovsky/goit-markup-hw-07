@@ -41,7 +41,7 @@
     color: $footer-font-white;
 }
 
-.footer-contacts-list__footer-contacts-item:not(:last-child) {
+.footer-contacts__item:not(:last-child) {
     margin-bottom: 8px;
 }
 
@@ -65,11 +65,11 @@
     margin-bottom: 20px;
 }
 
-.footer-social-list {
+.footer-social {
     display: flex;
 }
 
-.footer-social-list__footer-social-item {
+.footer-social__item {
     width: 44px;
     height: 44px;
 
@@ -94,7 +94,7 @@
     }
 }
 
-.footer-social-list__footer-social-icon {
+.footer-social__icon {
     fill: currentColor;
     width: 20px;
     height: 20px;
@@ -104,7 +104,7 @@
     @extend %align;
 }
 
-.form-subscribe__form-subscribe-input {
+.form-subscribe__input {
     width: 358px;
     padding: 15px 16px;
     margin-right: 12px;
