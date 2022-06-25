@@ -3,11 +3,11 @@
     align-items:center;
 }
 
-.main-menu {
+.menu {
     display: flex;
 }
 
-.main-menu .menu__item:not(:last-child) {
+.menu .menu__item:not(:last-child) {
     margin-right: 50px;
 }
 

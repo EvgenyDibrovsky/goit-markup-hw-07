@@ -1,8 +1,4 @@
 
-.skills-top {
-    padding-top: 0;
-}
-
 .advantages {
     display: flex;
     flex-wrap: wrap;
@@ -20,7 +16,7 @@
     }
 }
 
-.advantages__icon {
+.advantages__wrapper {
     @extend %align;
     height: 120px;
     border-radius: 4px;
@@ -28,7 +24,7 @@
     background-color: $bg-skills;
 }
 
-.advantages__icon__item-icon {
+.advantages__icon {
     height: 70px;
     width: 70px; 
 }

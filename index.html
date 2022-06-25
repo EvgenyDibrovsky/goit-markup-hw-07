@@ -14,10 +14,10 @@
 <body>
     <!-- HEADER -->
     <header class="header">
-        <div class="container header-container">
+        <div class="container header__container">
             <nav class="main-nav">          
-                <a class="logo header__logo" href="./index.html" lang="en">Web<span class="logo-dark">Studio</span></a> 
-                <ul class="main-menu">
+                <a class="logo header__logo" href="./index.html" lang="en">Web<span class="logo__dark">Studio</span></a> 
+                <ul class="menu">
                     <li class="menu__item">
                         <a class="menu__link menu__link--current" href="./index.html">Студия</a>
                     </li>
@@ -54,11 +54,11 @@
     <main>
 
         <!-- HERO -->
-        <section class="hero bg-section-dark overlay">
+        <section class="hero section--bg-dark overlay">
             <div class="container">
                 <div class="hero">
                     <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-                    <button class="hero-modal-btn" type="button" data-modal-open>
+                    <button class="hero__btn" type="button" data-modal-open>
                         Заказать услугу
                     </button>
                 </div>
@@ -68,11 +68,11 @@
         <!-- ADVANTAGES -->
         <section class="section">
             <div class="container">
-                <h2 class="section-title visually-hidden" >Наши преимущества</h2>
+                <h2 class="section__title visually-hidden" >Наши преимущества</h2>
                 <ul class="advantages">
                     <li class="advantages__item">
-                        <div class="advantages__icon">
-                            <svg class="advantages__icon__item-icon">
+                        <div class="advantages__wrapper">
+                            <svg class="advantages__icon">
                                 <use href="./images/icons.svg#antenna"></use>
                             </svg>
                         </div>
@@ -80,8 +80,8 @@
                         <p class="advantages__description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
                     <li class="advantages__item">
-                        <div class="advantages__icon">
-                            <svg class="advantages__icon__item-icon">
+                        <div class="advantages__wrapper">
+                            <svg class="advantages__icon">
                                 <use href="./images/icons.svg#clock"></use>
                             </svg>
                         </div>
@@ -89,8 +89,8 @@
                         <p class="advantages__description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
                     <li class="advantages__item">
-                        <div class="advantages__icon">
-                            <svg class="advantages__icon__item-icon">
+                        <div class="advantages__wrapper">
+                            <svg class="advantages__icon">
                                 <use href="./images/icons.svg#diagram"></use>
                             </svg>
                         </div>
@@ -98,8 +98,8 @@
                         <p class="advantages__description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
                     <li class="advantages__item">
-                        <div class="advantages__icon">
-                            <svg class="advantages__icon__item-icon">
+                        <div class="advantages__wrapper">
+                            <svg class="advantages__icon">
                                 <use href="./images/icons.svg#astronaut"></use>
                             </svg>
                         </div>
@@ -111,34 +111,34 @@
         </section>
 
         <!-- SKILLS -->
-        <section class="section skills-top">
+        <section class="section section--no-padding-top">
             <div class="container">
-                <h2 class="section-title">Чем мы занимаемся</h2>
+                <h2 class="section__title">Чем мы занимаемся</h2>
                 <ul class="skills">
                     <li class="skills__item">
                         <img src="./images/skills/programming.jpg" alt="Программирование" width="370" height="294">
-                            <p class="skills__item-label">Десктопные приложения</p>
+                            <p class="skills__description">Десктопные приложения</p>
                     </li>
                     <li class="skills__item">
                         <img src="./images/skills/adaptive.jpg" alt="Адаптивная верстка" width="370" height="294">
-                            <p class="skills__item-label">Мобильные приложения</p>
+                            <p class="skills__description">Мобильные приложения</p>
                     </li>
                     <li class="skills__item">
                         <img src="./images/skills/design.jpg" alt="Веб-дизайн" width="370" height="294">
-                            <p class="skills__item-label">Дизайнерские решения</p>
+                            <p class="skills__description">Дизайнерские решения</p>
                     </li>
                 </ul>
             </div>
         </section>
 
         <!-- TEAM -->
-        <section class="section bg-section-light">
+        <section class="section section--bg-light">
             <div class="container">
-                <h2 class="section-title">Наша команда</h2>
+                <h2 class="section__title">Наша команда</h2>
                 <ul class="team">
-                    <li class="team__team-item">
+                    <li class="team__item">
                         <img src="./images/team/igor-demyanenko.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                        <div class="team__team-card-content-wrapper">
+                        <div class="team__wrapper">
                             <h3 class="team__title">Игорь Демьяненко</h3>
                             <p class="team__text" lang="en">Product Designer</p>
                             <ul class="social">
@@ -173,9 +173,9 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team__team-item">
+                    <li class="team__item">
                         <img src="./images/team/olga-repina.jpg" alt="Ольга Репина" width="270" height="260">
-                        <div class="team__team-card-content-wrapper">
+                        <div class="team__wrapper">
                             <h3 class="team__title">Ольга Репина</h3>
                             <p class="team__text" lang="en">Frontend Developer</p>
                             <ul class="social">
@@ -210,9 +210,9 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team__team-item">
+                    <li class="team__item">
                         <img src="./images/team/nikolai-tarasov.jpg" alt="Николай Тарасов" width="270" height="260">
-                        <div class="team__team-card-content-wrapper">
+                        <div class="team__wrapper">
                             <h3 class="team__title">Николай Тарасов</h3>
                             <p class="team__text" lang="en">Marketing</p>
                             <ul class="social">
@@ -247,9 +247,9 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team__team-item">
+                    <li class="team__item">
                         <img src="./images/team/mikhail-ermakov.jpg" alt="Михаил Ермаков" width="270" height="260">
-                        <div class="team__team-card-content-wrapper">
+                        <div class="team__wrapper">
                             <h3 class="team__title">Михаил Ермаков</h3>
                             <p class="team__text" lang="en">UI Designer</p>
                             <ul class="social">
@@ -292,46 +292,46 @@
 
         <section class="section">
             <div class="container">
-                <h2 class="section-title">Постоянные клиенты</h2>
-                 <ul class="client">
-                    <li class="client__item">
-                        <a href="#" target="_blank" rel="noopener noreferrer nofollow" class="link">
-                            <svg class="client__icon">
+                <h2 class="section__title">Постоянные клиенты</h2>
+                 <ul class="clients">
+                    <li class="clients__item">
+                        <a href="#" target="_blank" rel="noopener noreferrer nofollow" class="clients__link">
+                            <svg class="clients__icon">
                                 <use href="./images/icons.svg#client1"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="client__item">
-                        <a href="#" target="_blank" rel="noopener noreferrer nofollow" class="link">
-                            <svg class="client__icon">
+                    <li class="clients__item">
+                        <a href="#" target="_blank" rel="noopener noreferrer nofollow" class="clients__link">
+                            <svg class="clients__icon">
                                 <use href="./images/icons.svg#client2"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="client__item">
-                        <a href="#" target="_blank" rel="noopener noreferrer nofollow" class="link">
-                            <svg class="client__icon">
+                    <li class="clients__item">
+                        <a href="#" target="_blank" rel="noopener noreferrer nofollow" class="clients__link">
+                            <svg class="clients__icon">
                                 <use href="./images/icons.svg#client3"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="client__item">
-                        <a href="#" target="_blank" rel="noopener noreferrer nofollow" class="link">
-                            <svg class="client__icon">
+                    <li class="clients__item">
+                        <a href="#" target="_blank" rel="noopener noreferrer nofollow" class="clients__link">
+                            <svg class="clients__icon">
                                 <use href="./images/icons.svg#client4"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="client__item">
-                        <a href="#" target="_blank" rel="noopener noreferrer nofollow" class="link">
-                            <svg class="client__icon">
+                    <li class="clients__item">
+                        <a href="#" target="_blank" rel="noopener noreferrer nofollow" class="clients__link">
+                            <svg class="clients__icon">
                                 <use href="./images/icons.svg#client5"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="client__item">
-                        <a href="#" target="_blank" rel="noopener noreferrer nofollow" class="link">
-                            <svg class="client__icon">
+                    <li class="clients__item">
+                        <a href="#" target="_blank" rel="noopener noreferrer nofollow" class="clients__link">
+                            <svg class="clients__icon">
                                 <use href="./images/icons.svg#client6"></use>
                             </svg>
                         </a>
@@ -349,7 +349,7 @@
             <div class="footer-row">
                 <!--WIDGET CONTACTS -->
                 <div class="widgent-contacts">        
-                    <a class="logo" href="./index.html" lang="en">Web<span class="logo-light">Studio</span></a>             
+                    <a class="logo" href="./index.html" lang="en">Web<span class="logo__light">Studio</span></a>             
                     <address class="address">
                         <ul class="footer-contacts">
                             <li class="footer-contacts__item">

@@ -16,7 +16,7 @@
     }
 }
 
-.skills__item-label {
+.skills__description {
     @extend %align; 
     @include font(14px, 700, 16.41px, 0.03em);
     position: absolute;

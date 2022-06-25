@@ -3,17 +3,22 @@
     padding-bottom: 94px;
 }
 
-.bg-section-dark {
+.section--bg-dark {
     background-color: $bg-section-dark;
 }
 
-.bg-section-light {
+.section--bg-light {
     background-color: $bg-section-light;
 }
 
-.section-title {
+.section__title {
     @include font(36px, 700, 42.19px, 0.03em);
     text-align: center;
     color: $primary-font-color;
     margin-bottom: 50px;
 }
+
+.section--no-padding-top {
+    padding-top: 0;
+}
+
