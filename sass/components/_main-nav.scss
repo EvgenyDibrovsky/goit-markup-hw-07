@@ -27,7 +27,7 @@
     }
 }
 
-.menu__link.current::after {
+.menu__link--current::after {
     content: '';
     position: absolute;
     display: block;
@@ -39,6 +39,6 @@
     background-color: $accent-color;
 }
 
-.current {
+.menu__link--current {
     color: $accent-color;
 }
