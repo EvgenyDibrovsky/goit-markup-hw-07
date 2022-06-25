@@ -36,12 +36,12 @@
     }
 }
 
-.portfolio-item__team-list-img-wrapper {
+.portfolio-item__img-wrapper {
     position: relative;
     overflow: hidden;
 }
 
-.portfolio-item__team-list-overlay {
+.portfolio-item__overlay {
     @include font(18px, 400, 28px, 0.03em);
     position: absolute;
     top: 0;
