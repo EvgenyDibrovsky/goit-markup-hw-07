@@ -1,9 +1,9 @@
-.skills-list {
+.skills {
     display: flex;
     flex-wrap: wrap;
 }
 
-.skills-list__skills-item {
+.skills__item {
     flex-basis: calc((100% - 60px) / 3);
     position: relative;
 
@@ -16,7 +16,7 @@
     }
 }
 
-.skills-list__skills-item-label {
+.skills__item-label {
     @extend %align; 
     @include font(14px, 700, 16.41px, 0.03em);
     position: absolute;
